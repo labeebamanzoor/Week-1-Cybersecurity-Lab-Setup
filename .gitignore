@@ -1,0 +1,20 @@
+# VirtualBox machine files and state
+*.vbox
+*.vbox-prev
+*.vdi
+*.vmdk
+*.sav
+*.vbox-tmp
+Logs/
+
+# Temporary and OS files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / local environment files
+.env
+.env.*
+!.env.example
